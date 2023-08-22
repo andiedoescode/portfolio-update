@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrea Pang</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="top-nav">
+      <h1 class="nav-title"><a href="./index.html">Andrea Pang</a></h1>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a href="./work.html">work</a></li>
+        <li><a href="./about.html">about</a></li>
+        <li><a href="./about.html#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="grid hero">
+      <div class="hero-pic">
+        <img
+          src="./assets/avatar-pic.svg"
+          alt="Illustrated profile avatar"
+          class="profile-pic" />
+      </div>
+      <div class="hero-arrow">
+        <a href="#blurb"><img src="./assets/down-arrow.svg" alt="down arrow" class="bounce" /></a>
+      </div>
+    </section>
+
+    <!-- About blurb -->
+    <section class="grid blurb" id="blurb">
+        <div class="blurb-text">
+            <h2>Andrea is a full stack software engineer based in the DC metro area. She is dedicated to fostering inclusivity and innovative problem-solving.</h2>
+        </div>
+    </section>
+
+    <!-- Grid of screenshots -->
+    <section class="work">
+        <div class="grid work-container">
+            <div>
+                <img src="./assets/images/ss-1.jpg" alt="Screenshot">
+                <p>Some title</p>
+            </div>
+            <div>
+                <img src="./assets/images/ss-2.jpg" alt="Screenshot">
+                <p>Some title</p>
+            </div>
+            <div>
+                <img src="./assets/images/ss-3.jpg" alt="Screenshot">
+                <p>Some title</p>
+            </div>
+            <div>
+                <img src="./assets/images/ss-4.jpg" alt="Screenshot">
+                <p>Some title</p>
+            </div>
+            <div>
+                <img src="./assets/images/ss-5.jpg" alt="Screenshot">
+                <p>Some title</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- More and Contact -->
+    <section class="grid more">
+        <img src="./assets/line.svg" alt="squiggle" class="wave-divide">
+        <div>
+            <h3><a href="./work.html">tell me more</a></h3>
+            <img src="./assets/line.svg" alt="squiggle" class="underline
+            ">
+        </div>
+        <div class="end">
+            <h3><a href="./about.html#contact">get in touch</a></h3>
+            <img src="./assets/line.svg" alt="squiggle" class="underline">
+        </div>
+        <img src="./assets/line.svg" alt="squiggle" class="wave-divide">
+    </section>
+
+    <footer>
+        <p class="fade-in">&copy; 2023 Andrea Pang</p>
+    </footer>
+    </div>
+  </body>
+</html>
