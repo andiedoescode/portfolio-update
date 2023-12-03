@@ -1,90 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrea Pang</title>
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@300;500;600&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <script src="https://kit.fontawesome.com/bb1dd7775a.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Andrea Pang</title>
 
-  <body>
-    <!-- Navbar -->
-    <nav class="top-nav">
-      <h1 class="nav-title"><a href="./index.html">Andrea Pang</a></h1>
-      <input id="menu-toggle" type="checkbox" />
-      <label class="menu-button-container" for="menu-toggle">
-        <div class="menu-button"></div>
-      </label>
-      <ul class="menu">
-        <li><a href="./work.html" class="pg-focus">work</a></li>
-        <li><a href="./about.html">about</a></li>
-        <li><a href="./about.html#contact">contact</a></li>
-      </ul>
-    </nav>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@300;500;600&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/style.css" />
+		<script
+			src="https://kit.fontawesome.com/bb1dd7775a.js"
+			crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+	</head>
 
-   <!-- Grid of screenshots -->
-    <main class="work">
-        <div class=" grid work-header">
-            <h2 class="work-title">the work</h2>
-            <img src="./assets/line.svg" alt="squiggle" class="title-underline
-            ">
-        </div>
+	<body>
+		<!-- Navbar -->
+		<nav class="top-nav">
+			<h1 class="nav-title"><a href="./index.html">Andrea Pang</a></h1>
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-button-container" for="menu-toggle">
+				<div class="menu-button"></div>
+			</label>
+			<ul class="menu">
+				<li><a href="./work.html" class="pg-focus">work</a></li>
+				<li><a href="./about.html">about</a></li>
+				<li><a href="./about.html#contact">contact</a></li>
+			</ul>
+		</nav>
 
-        <section class="grid work-container">
-            <div class=" grid work-section-title">
-                <h3>websites</h3>
-            </div>
-            <div>
-              <div>
-                <a href="https://hadleyshope.org/"><img src="./assets/images/ss-hh.PNG" alt="Screenshot"></a></div>
-                <div><p>Hadley's Hope</p>
-                <p>Tech used: <i class="fa-brands fa-html5" title="HTML5"></i> <i class="fa-brands fa-css3-alt" title="CSS3"></i> <i class="fa-brands fa-js" title="JavaScript"></i></p>
-              </div>
-            </div>
-            <div>
-                <a href="https://blackwallstreetavl.com/"><img src="./assets/images/ss-bwsavl.PNG" alt="Screenshot"></a>
-                <p>Black Wall Street AVL</p>
-            </div>
-            <div>
-                <img src="./assets/images/ss-ms.PNG" alt="Screenshot">
-                <p>Mindful & Strong</p>
-            </div>
-            <div>
-              <a href="https://whiskersutah.org/"><img src="./assets/images/ss-whiskers.PNG" alt="Screenshot"></a>
-                <p>Whiskers Rescue</p>
-            </div>
-          </section>
+		<!-- Grid of screenshots -->
+		<main class="work">
+			<div class="grid work-header">
+				<h2 class="work-title">the work</h2>
+				<img src="./assets/line.svg" alt="squiggle" class="title-underline" />
+			</div>
 
-        <section class="grid work-container">
-            <div class=" grid work-section-title">
-                <h3>projects</h3>
-            </div>
-            <div>
-              <a href="https://ledger.cyclic.app/"><img src="./assets/images/ss-ledger2.PNG" alt="Screenshot"></a>
-                <p>Ledger</p>
-            </div>
-            <div>
-              <a href="https://moodjournal.cyclic.app/"><img src="./assets/images/ss-mood.PNG" alt="Screenshot"></a>
-                <p>Mood Journal</p>
-            </div>
-          </section>
-      </main>
+			<section class="grid work-container">
+				<div class="grid work-section-title">
+					<h3>projects</h3>
+				</div>
 
-    <!-- Bottom Divider -->
-    <section class="grid">
-        <img src="./assets/line.svg" alt="squiggle" class="wave-divide-sub">
-    </section>
+				<div class="work-card">
+					<div class="work-card-img">
+						<a href="https://ledger.cyclic.app/"
+							><img src="./assets/images/ss-ledger2.PNG" alt="Screenshot"
+						/></a>
+					</div>
+					<div class="work-card-body">
+						<p>
+							Ledger (<a href="https://ledger.cyclic.app/">Live</a> |
+							<a href="https://github.com/andiedoescode/ledger"
+								><i class="fa-brands fa-github" title="GitHub"></i></a
+							>)
+						</p>
+						<p>
+							Tech: HTML, EJS, TailwindCSS, JavaScript, Node.js, Express,
+							MongoDB, Mongoose, Multer
+						</p>
+					</div>
+				</div>
 
-    <footer>
-        <p class="fade-in">&copy; 2023 Andrea Pang</p>
-    </footer>
-    </div>
-  </body>
+				<div class="work-card">
+					<div class="work-card-img">
+						<a href="https://moodjournal.cyclic.app/"
+							><img src="./assets/images/ss-mood.PNG" alt="Screenshot"
+						/></a>
+					</div>
+					<div class="work-card-body">
+						<p>
+							Mood Journal (<a href="https://moodjournal.cyclic.app/">Live</a> |
+							<a href="https://github.com/andiedoescode/mood-colors"
+								><i class="fa-brands fa-github" title="GitHub"></i></a
+							>)
+						</p>
+						<p>
+							Tech: HTML, EJS, TailwindCSS, JavaScript, Node.js, Express,
+							MongoDB, dotenv, Passport.js
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="grid work-container">
+				<div class="grid work-section-title">
+					<h3>websites</h3>
+				</div>
+
+				<div class="work-card">
+					<div class="work-card-img">
+						<a href="https://hadleyshope.org/"
+							><img src="./assets/images/ss-hh.PNG" alt="Screenshot"
+						/></a>
+					</div>
+					<div class="work-card-body">
+						<p>Hadley's Hope</p>
+						<p>Tech: WordPress, CSS</p>
+					</div>
+				</div>
+
+				<div class="work-card">
+					<div clas="work-card-img">
+						<a href="https://blackwallstreetavl.com/"
+							><img src="./assets/images/ss-bwsavl.PNG" alt="Screenshot"
+						/></a>
+					</div>
+					<div class="work-card-body">
+						<p>Black Wall Street AVL</p>
+						<p>Tech: WordPress, CSS</p>
+					</div>
+				</div>
+
+				<div class="work-card">
+					<div class="work-card-img">
+						<img src="./assets/images/ss-ms.PNG" alt="Screenshot" />
+					</div>
+					<div class="work-card-body">
+						<p>Mindful & Strong</p>
+						<p>Tech: HTML, CSS, JavaScript</p>
+					</div>
+				</div>
+
+				<div class="work-card">
+					<div class="work-card-img">
+						<a href="https://whiskersutah.org/"
+							><img src="./assets/images/ss-whiskers.PNG" alt="Screenshot"
+						/></a>
+					</div>
+					<div class="work-card-body">
+						<p>Whiskers Rescue</p>
+						<p>Tech: WordPress, CSS</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Bottom Divider -->
+		<section class="grid">
+			<img src="./assets/line.svg" alt="squiggle" class="wave-divide-sub" />
+		</section>
+
+		<footer>
+			<p class="fade-in">&copy; 2023 Andrea Pang</p>
+		</footer>
+	</body>
 </html>
